@@ -1,0 +1,102 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.task-form {
+  text-align: left;
+  padding: 0px 20px;
+  background-color: #3260bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border-style: solid;
+  border-color: #12367f;
+}
+.titleDiv{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  font-weight: bold;
+  color:#8bf8e8
+}
+
+.addTask{
+  background-color: #3260bd;
+  color:#8bf8e8;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+  border-color: black;
+  margin: 20px 0px;
+}
+
+.input{ /* Chrome/Opera/Safari */
+  text-decoration: underline;
+  border: none;
+  background-color: #3260bd;
+  color: white;
+}
+.select{
+text-decoration: underline;
+  border: white;
+  background-color: #3260bd;
+  color: white;
+}
+.input:focus {
+  border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+}
+
+input[type="date" i]{
+  text-decoration: underline;
+  border: none;
+}
+.newtask{
+  margin-top: 20px;
+}
